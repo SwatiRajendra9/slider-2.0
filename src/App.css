@@ -1,0 +1,64 @@
+html,body,#root {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height:100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#reviews {
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#person-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 120px;
+  object-fit: cover;
+  border: 5px solid lavender
+
+}
+
+#name {
+  margin: 0;
+  margin-top: 15px;
+  color: purple;
+  font-size: 25px;
+}
+
+#job-desc {
+  line-height: 30px;
+  text-align: center;
+  color: grey;
+  font-weight: 500;
+}
+
+#designation {
+  font-weight: 500;
+}
+
+#quotes {
+  margin:0;
+  color: purple;
+  font-size: 80px;
+}
+
